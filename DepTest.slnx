@@ -2,6 +2,5 @@
   <Folder Name="/src/">
     <Project Path="src/Cpm/Cpm.csproj" />
     <Project Path="src/NoCpm/NoCpm.csproj" />
-    <Project Path="src/Transitive/Transitive.csproj" />
   </Folder>
 </Solution>
