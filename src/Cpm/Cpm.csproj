@@ -3,7 +3,7 @@
     <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="FluentAssertions" VersionOverride="6.7.0" />
     <PackageReference Include="Newtonsoft.Json" />
   </ItemGroup>
 </Project>
