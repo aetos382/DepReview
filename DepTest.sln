@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cpm", "src\Cpm\Cpm.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoCpm", "src\NoCpm\NoCpm.csproj", "{7AAE5544-00EC-464E-AEB4-7DA9828CB36E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transitive", "src\Transitive\Transitive.csproj", "{91C146A5-976F-4813-844C-78627C02580D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{7AAE5544-00EC-464E-AEB4-7DA9828CB36E}.Release|x64.Build.0 = Release|Any CPU
 		{7AAE5544-00EC-464E-AEB4-7DA9828CB36E}.Release|x86.ActiveCfg = Release|Any CPU
 		{7AAE5544-00EC-464E-AEB4-7DA9828CB36E}.Release|x86.Build.0 = Release|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Debug|x64.Build.0 = Debug|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Debug|x86.Build.0 = Debug|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Release|x64.ActiveCfg = Release|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Release|x64.Build.0 = Release|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Release|x86.ActiveCfg = Release|Any CPU
+		{91C146A5-976F-4813-844C-78627C02580D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E97C78C0-70C3-4AC1-A80F-ED1696456C9C} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{7AAE5544-00EC-464E-AEB4-7DA9828CB36E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{91C146A5-976F-4813-844C-78627C02580D} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
